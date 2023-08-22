@@ -1,0 +1,44 @@
+[
+    {
+        "id": "test1",
+        "ipv4Address": "100.101.102.199",
+        "ipv6Address": "",
+        "port": 4001
+    },
+    {
+        "id": "test2",
+        "ipv4Address": "100.101.102.199",
+        "ipv6Address": "",
+        "port": 4002
+    },
+    {
+        "id": "dev1",
+        "ipv4Address": "100.102.201.150",
+        "ipv6Address": "",
+        "port": 4001
+    },
+    {
+        "id": "dev2",
+        "ipv4Address": "100.102.201.150",
+        "ipv6Address": "",
+        "port": 4002
+    },
+    {
+        "id": "stage",
+        "ipv4Address": "100.101.102.199",
+        "ipv6Address": "",
+        "port": 4000
+    },
+    {
+        "id": "prod",
+        "ipv4Address": "100.111.232.68",
+        "ipv6Address": "",
+        "port": 4000
+    },
+    {
+        "id": "local",
+        "ipv4Address": "127.0.0.1",
+        "ipv6Address": "",
+        "port": 4000
+    }
+]

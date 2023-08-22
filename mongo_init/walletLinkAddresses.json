@@ -1,0 +1,14 @@
+[
+    {
+        "id": "stage",
+        "linkAddress": "link.nda.com"
+    },
+    {
+        "id": "prod",
+        "linkAddress": "link.nda.com"
+    },
+    {
+        "id": "test",
+        "linkAddress": "link.nda.com"
+    }
+]

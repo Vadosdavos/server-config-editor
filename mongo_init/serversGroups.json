@@ -1,0 +1,52 @@
+[
+    {
+        "label": "test",
+        "buildNumber": 12345,
+        "tag": "test_ios",
+        "walletLinkTag": "test",
+        "serverUnderMaintenance": false,
+        "serverIds": [
+            "test2"
+        ]
+    },
+    {
+        "label": "PLAD15K0",
+        "buildNumber": 12346,
+        "tag": "test1",
+        "walletLinkTag": "stage",
+        "serverUnderMaintenance": false,
+        "serverIds": [
+            "test1"
+        ]
+    },
+    {
+        "label": "OI8091NB",
+        "buildNumber": 12347,
+        "tag": "local",
+        "walletLinkTag": "stage",
+        "serverUnderMaintenance": false,
+        "serverIds": [
+            "local"
+        ]
+    },
+    {
+        "label": "AH429UT15",
+        "buildNumber": 12348,
+        "tag": "dev1",
+        "walletLinkTag": "stage",
+        "serverUnderMaintenance": false,
+        "serverIds": [
+            "dev1"
+        ]
+    },
+    {
+        "label": "P1AB230401",
+        "buildNumber": 12349,
+        "tag": "prod_android",
+        "walletLinkTag": "prod",
+        "serverUnderMaintenance": false,
+        "serverIds": [
+            "prod"
+        ]
+    }
+]
