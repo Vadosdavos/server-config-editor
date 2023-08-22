@@ -1,0 +1,28 @@
+version: '3'
+services:
+
+  mongo:
+    container_name: config_editor_mongo
+    image: mongo:latest
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: Admin
+      MONGO_INITDB_ROOT_PASSWORD: ERtfs34Mk98
+    ports:
+      - "27018:27017"
+    volumes:
+      - ./mongo_init:/docker-entrypoint-initdb.d
+    command: --quiet
+
+  config_editor:
+    container_name: config_editor
+    depends_on:
+      - mongo
+    restart: unless-stopped
+    image: config_editor:latest
+    environment:
+      - METHOD=dev
+    ports:
+      - "3000:3000"
+    expose:
+      - "3000"
