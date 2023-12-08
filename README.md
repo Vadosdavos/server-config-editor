@@ -29,8 +29,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## About project
 
-Demo: [https://youtu.be/AsOcLKKA6tA](https://youtu.be/AsOcLKKA6tA)
-
 Endpoints:
 Public:
 ```
